@@ -1,0 +1,477 @@
+body
+{
+   padding: 0px;
+   margin: 0px;
+   font-family: 'Poppins', sans-serif;
+   background-color: #0F1014;
+}
+.main
+{
+   background-image: url(carhome.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+   width:100%;
+   height:100vh;   
+}
+.main .container
+{
+   margin-top: 40px;
+   padding: 30px;
+   display:inline-flex;
+}
+.hh
+{
+   margin-top: 15px;
+}
+.main .container .instants
+{
+   width: 1350px;
+}
+.talk1
+{
+  color:white;
+   font-size: 50px;
+   padding: 49px;
+   margin-top: 170px;
+   font-weight: 600;
+   margin-left: 100px;
+}
+.talk2{
+
+   color:gray;
+   font-size: 15px;
+   padding: 50px;
+   margin-top: 40px;
+   margin-left: 100px;
+}
+.im
+{
+   margin-left: 100px;
+}
+.imgg
+{
+   margin-top: 150px;
+}
+.talk3
+{
+   margin-top: 100px;
+   color: white;
+   font-weight: 700;
+   font-size: 35px;
+}
+
+.immm
+{
+   margin-top:100px;
+   width: 80%;
+   height:600px;
+   border-radius: 20px;
+
+}
+.v1
+{
+   width: 70%;
+   height: 600px;
+   border-radius: 20px;
+}
+.talk4
+{
+   color:white;
+   font-size: 50px;
+   margin-top:100px;
+   font-weight: 800;
+}
+.talk5
+{
+   margin-top: 20px;
+   color:gray;
+   font-size: 25px;
+
+}
+.a11
+{
+   display:flex;
+}
+.a12
+{
+   color: white;
+   font-size:40px;
+   margin-top:20px;
+   margin-left:30px;
+}
+.ta
+{
+   padding:100px;
+}
+.a15
+{
+   width: 150px;
+   height: 150px;
+   margin-left: 100px;
+   margin-top: 10px;
+ 
+}
+.q1
+{
+   color: white;
+   font-size: 40px;
+   font-weight: 900;
+   margin-top: 30px;
+}
+.a14
+{
+   font-size: 20px;
+   color: grey;
+
+}
+.ta
+{
+   margin-left: 300px;
+   margin-top: 100px;
+}
+.a155
+{
+   margin-left: 140px;
+   width: 150px;
+   height: 150px;
+   margin-top:20px;
+   margin-bottom: 30px;
+
+}
+.taa
+{
+   margin-left: 100px;
+}
+.ass
+{
+   background-color: #151A1A;
+   max-width: 320px;
+}
+.as
+{
+   color: white;
+}
+.aq
+{
+   background-color:orange;
+   color: white;
+   font-weight: 400;
+   padding:9px;
+   font-size:20px;
+   text-decoration: none;
+   border-radius:8px ;
+}
+.view
+{
+   
+   color: orange;
+   font-size: 30px;
+   padding:40px;
+   border-radius: 65px;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 800;
+   border:2px solid orange;
+}
+.footer2
+{
+   color:gray;
+   font-size: 20px;
+}
+.fotter1
+{
+padding: 50px;
+}
+.footer{
+   background-color: black;
+}
+.footer
+{
+   display:flex;
+}
+.fotter3
+{
+   padding: 30px;
+   margin-top: 55px;
+}
+.fotter22
+{
+   width: 250px;
+}
+.footer33{
+   padding: 30px;
+   margin: 55px;
+}
+.a1:hover
+{
+   transition: 0.8s;
+   box-shadow: 5px 5px 20px 12px orange;
+}
+.a1
+{
+   width: 450px;
+   height: 300px;
+   margin: 40px;
+   border-radius: 20px;
+}
+.im
+{
+   height: 90px;
+}
+.di
+{
+   display: grid;
+   margin-left:28rem ;
+   margin-top: 10rem;
+}
+.sec
+{
+   display: inline-flex;
+}
+.a14
+{
+   margin: 20px;
+}
+.view:hover
+{
+   color: white;
+   background-color: orange;
+   transition: 1s;
+}
+.footer
+{
+   justify-content: center;
+}
+.ass:hover
+{
+   box-shadow: 5px 5px 20px 12px orange;
+}
+.group
+{
+   display: inline-flex;
+}
+.ass
+{
+   margin: 30px;
+}
+.aq:hover
+{
+   color:white;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+ .links
+{
+    position: relative;
+
+}
+ .links:hover .icon span:nth-child(2)
+{
+ width:100%;
+}
+ .links .icon
+{
+  width:30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.links .icon span 
+{
+   background-color:rgb(254, 191, 30);
+   margin-bottom: 5px; 
+   height: 2px;
+
+}
+ .links .icon span:first-child
+{
+
+    width:100%;
+}
+ .links .icon span:nth-child(2)
+{
+   
+    width:60%;
+    transition: var(--main-dauration);
+
+}
+ .links .icon span:last-child
+{
+  
+    width:100%;
+}
+ .links ul
+{
+list-style: none;
+margin-bottom: 0px;
+margin-top: 25px;
+padding: 0px;
+background-color:#ddd;
+position: absolute;
+right:0px;
+min-width:200px;
+top:calc(100+15px);
+display: none;
+border-radius:10px;
+z-index: 1;
+
+
+
+}
+ .links ul::before
+{
+   content: " ";
+   border-width: 10px;
+   border-style: solid;
+   border-color:transparent transparent rgb(195, 195, 195) transparent;
+   position: absolute;
+   right: 5px;
+   top:-20px;
+
+}
+ .links:hover ul
+{
+  display: block;
+}
+ .links ul li a
+{
+  display: block;
+  padding: 15px;  
+  text-decoration: none;
+  color: #000;
+  transition: var(--main-dauratio);
+}
+ .links ul li a:hover
+{
+    padding-left: 25px;
+}
+ .links ul li:not(:last-child) a
+{
+    border-bottom:1px solid rgb(188, 188, 188);
+}
+.container
+{
+  
+   
+    align-items:center;
+    
+}
+.links
+{
+   margin-left: 1300px;
+}
+.main1
+{
+   width:100%;
+   height:100vh;  
+}
+.container1
+{
+   align-items: center;
+   justify-content:center;
+   display: flex;
+   padding: 40px;
+}
+.group1
+{
+   display: flex;
+}
+.aass
+{
+   width: 1000px;
+   height:500px;
+   border-radius:9px 9px 0px 0px
+}
+.groupimage
+{
+   border:  2px solid black;
+   margin-left: 450px;
+   border-radius: 9px;
+   width: 1000px; ;
+ 
+}
+.aa1
+{
+   width: 550px;
+   height:320px;
+   border-radius:0px 0px 0px 9px;
+}
+.aa2
+{
+   width: 380px;
+   height:320px;
+  
+}.aa3
+{
+   width: 450px;
+   height:320px;
+   border-radius:0px 0px 9px 0px;
+}
+.tall
+{
+   color: white;
+   padding:40px;
+   font-weight: 800;
+}
+.tall3
+{
+   color: gray;
+   font-size: 20px;
+   margin-left: 500px;  
+}
+.tall2
+{
+ 
+   color: orange;
+   font-size: 20px;
+   margin-bottom: 50px;
+ 
+
+}
+.ss
+{
+   font-size: 30px;
+}
+.buy
+{
+   color: orange;
+   font-size: 20px;
+   padding:20px;
+   text-decoration: none;
+   border-radius: 40px;
+   margin-top: 100px;
+   margin-left: 855px;
+   padding-left: 40px;
+   padding-right: 40px;
+   border: 2px solid orange;
+}
+.imgbuy
+{
+   width:30px;
+   height: 30px;
+}
+.hha
+{
+   margin-top: 50px;
+   color: gray;
+}
+.jhj
+{
+   margin-top: 50px;
+   margin-left: 200px;
+   margin-bottom: 50px;
+}
+.buy:hover
+{
+   color:white;
+   background-color: orange;
+   transition: 0.6s;
+}
